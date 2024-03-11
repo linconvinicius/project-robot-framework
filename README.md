@@ -1,19 +1,16 @@
 # Projeto Automação com Robot Framework
 
-## Bem-vindo! Este repositório contém informações sobre minhas experiências, minha formação acadêmica, detalhes de contato e cursos que tenho realizado.
-
+## Bem-vindo! Este repositório contém informações sobre o projeto de automação de testes realizado com Robot Framework.
 
 ## Informações sobre o projeto
 
-- **Caso de teste:** Os casos de teste desse projeto .
+- **Caso de teste:** Nos casos de teste desse projeto temos as informações de documentação, tags, test setup e test teardown.
 
-- **Trabalho voluntário:** Em meu trabalho voluntário, atuei como mentor na área de qualidade, auxiliando pessoas na transição de carreira, orientando e compartilhando conhecimentos para capacitar e impulsionar o desenvolvimento profissional.
+- **Resultado dos testes:** Informações sobre os testes executados, evidencia dos testes, tempo de execução e os logs.
 
-- **Formação Acadêmica:** Informações sobre minha formação acadêmica, incluindo cursos, certificações e instituições de ensino.
+- **Testes em Gherkin:** Caso de testes escritos em Gherkin, mostrando a execução e as boas práticas de automação de teste.
 
-- **Contato:** Encontre informações para entrar em contato comigo. Fico à disposição para discussões, colaborações ou qualquer outra consulta relacionada ao meu trabalho.
-
-- **Cursos:** Detalhes sobre os cursos que tenho concluído ou estou atualmente realizando para aprimorar minhas habilidades e conhecimentos.
+- **Arquivo Resources:** Encontre informações do Library utilizada, variaveis e as keywords.
 
 Sinta-se à vontade para explorar e entrar em contato se tiver alguma dúvida ou interesse em colaborações. Obrigado por visitar o meu Github!
 </div>
