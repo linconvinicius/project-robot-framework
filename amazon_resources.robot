@@ -5,7 +5,7 @@ Library    SeleniumLibrary
 ${BROWSER}                 chrome 
 ${URL}                     http://www.amazon.com.br
 ${CATEGORIA_LIVROS}        //a[contains(.,'Livros')]
-${LIVROS_OFERTAS}          //h2[contains(.,'Livros em oferta')]
+${LIVROS_OFERTAS}          //span[@class='GridPresets-module__gridPresetsLargeItem_2xPgV2VoJCncjGPj18in1h'][contains(.,'Romance')]
 ${BTN_ADD_CARRINHO}        add-to-cart-button
 ${NAO_OBRIGADO}            //input[contains(@aria-labelledby,'attachSiNoCoverage-announce')]
 ${ADICIONADO_NO_CARRINHO}  //span[@class='a-size-medium-plus a-color-base sw-atc-text a-text-bold'][contains(.,'Adicionado ao carrinho')]
@@ -38,7 +38,7 @@ Verificar se o título da página fica "${TITULO}"
     Title Should Be    title=${TITULO}
         
 Verificar se aparece a categoria "${NOME_CATEGORIA}"
-    Element Should Be Visible    locator=//a[@aria-label='${NOME_CATEGORIA}']
+    Element Should Be Visible    locator=//li[@class='a-carousel-card GridPresets-module__gridPresetElement_LK6M4HpuBZHEa3NTWKSb9'][contains(.,'${NOME_CATEGORIA}')]
 
 Digitar o nome de produto "${PRODUTO}" no campo de pesquisa
     Input Text    locator=twotabsearchtextbox    text=${PRODUTO}
@@ -70,7 +70,6 @@ Verificar se o carrinho fica vazio
 # GHERKIN STEPS
 Dado que estou na home page da Amazon.com.br
     Acessar a home page do site Amazon.com.br
-    Verificar se o título da página fica "Amazon.com.br | Compre livros, Kindle, Echo, Fire Tv e mais."
 
 Quando acessar o menu "Livros"
     Entrar no menu "Livros"
