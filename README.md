@@ -10,7 +10,7 @@
 
 - **Testes em Gherkin:** Caso de testes escritos em Gherkin, mostrando a execução e as boas práticas de automação de teste.
 
-- **Arquivo Resources:** Encontre informações do Library utilizada, variaveis e as keywords.
+- **Arquivo Resources:** Encontre informações da Library utilizada, variaveis e as keywords.
 
 Sinta-se à vontade para explorar e entrar em contato se tiver alguma dúvida ou interesse em colaborações. Obrigado por visitar o meu Github!
 </div>
